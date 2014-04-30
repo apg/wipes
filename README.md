@@ -21,7 +21,7 @@ The idea of wipes is that it's part of a command pipeline. Thus:
 Will start an HTTP server on 8080 and serve files from the current
 directory. It will also make available the output of
 `tail -f /var/log/messages` available via WebSockets at
-[](ws://localhost:8080/_ws).
+[ws://localhost:8080/_ws]().
 
 It's possible to serve a different directory:
 
