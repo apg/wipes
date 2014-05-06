@@ -1,0 +1,31 @@
+<!doctype html5>
+<html>
+<head>
+   <title>dice demo</title>
+   <style type="text/css">
+      body {
+        font-family: monospace;
+        font-size: 62.5%;
+      }
+      p {
+        font-size: 1.2em;
+        line-height: 1.0em;
+        padding: 0;
+        margin: 0;
+      }
+   </style>
+</head>
+<body>
+   <div class="wrapper"></div>
+   <script type="text/javascript" src="jquery.min.js"></script>
+   <script type="text/javascript" src="/wipes/client.js"></script>
+   <script type="text/javascript">
+      WipesClient({
+        handleLine: function (line) {
+          $('.wrapper').append('<p>' + line + '</p>');
+          $('html,body').prop({scrollTop: $(document).height()});
+        }
+      });
+   </script>
+</body>
+</html>
