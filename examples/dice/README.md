@@ -11,7 +11,7 @@ is then plotted in a set of sparklines.
 
 ## Run it
 
-    $ ./dice | wipes -addr
+    $ ./dice | wipes -addr :8080
     $ open http://localhost:8080/
 
 
