@@ -1,0 +1,33 @@
+<!doctype html5>
+<html>
+<head>
+   <title>dice demo</title>
+   <style type="text/css">
+      h3 span {
+        color: #aa0000;
+      }
+   </style>
+</head>
+<body>
+   <div class="wrapper">
+      <h1>Frequency of d6 outcomes</h1>
+      <p>We roll 100 dice (d6) one time every second. These are their frequencies.</p>
+      <h3>1: <span id="value-1"></span></h3>
+      <div class="service-spark" data-slug="graph-1"></div>
+      <h3>2: <span id="value-2"></span></h3>
+      <div class="service-spark" data-slug="graph-2"></div>
+      <h3>3: <span id="value-3"></span></h3>
+      <div class="service-spark" data-slug="graph-3"></div>
+      <h3>4: <span id="value-4"></span></h3>
+      <div class="service-spark" data-slug="graph-4"></div>
+      <h3>5: <span id="value-5"></span></h3>
+      <div class="service-spark" data-slug="graph-5"></div>
+      <h3>6: <span id="value-6"></span></h3>
+      <div class="service-spark" data-slug="graph-6"></div>
+   </div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="/wipes/client.js"></script>
+<script type="text/javascript" src="dice.js"></script>
+</body>
+</html>
