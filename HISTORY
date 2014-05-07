@@ -1,0 +1,15 @@
+Wipes Changelog
+===============
+
+2014-05-07: 0.0.2
+
+- Removed the lines example
+- Added both the echo and dice example
+- README typo thanks to @jebjerg
+- Added /wipes/client.js a simple WebSockets client
+
+2014-04-30: 0.0.1
+
+- Initial release with baseline functionality
+  * expose WebSocket endpoint
+  * serve static content from current directory
